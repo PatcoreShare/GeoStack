@@ -1,0 +1,37 @@
+{
+    "app_settings": {
+        "default_bbox": [20.65, 52.41, 20.76, 52.46],
+        "default_min_zoom": 1,
+        "default_max_zoom": 16,
+        "request_timeout": 15,
+        "max_workers": 4,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    },
+    "active_layer": "GEOSATELLITE",
+    "layers": {
+        "GEOSATELLITE": {
+            "name": "Ortofotomapa Standard",
+            "url_base": "https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution",
+            "layer_param": "ortofotomapa",
+            "format": "image/jpeg"
+        }
+    },
+    "regions": {
+        "1": {"name": "Dolnośląskie", "bbox": [15.5, 50.1, 17.7, 51.4]},
+        "2": {"name": "Kujawsko-pomorskie", "bbox": [17.0, 52.6, 19.6, 53.7]},
+        "3": {"name": "Lubelskie", "bbox": [21.7, 50.6, 24.2, 52.0]},
+        "4": {"name": "Lubuskie", "bbox": [14.7, 51.3, 16.4, 53.0]},
+        "5": {"name": "Łódzkie", "bbox": [18.5, 50.9, 20.2, 52.5]},
+        "6": {"name": "Małopolskie", "bbox": [19.5, 49.2, 21.5, 50.5]},
+        "7": {"name": "Mazowieckie", "bbox": [19.7, 51.4, 23.0, 53.5]},
+        "8": {"name": "Opolskie", "bbox": [16.9, 50.0, 18.6, 51.0]},
+        "9": {"name": "Podkarpackie", "bbox": [21.1, 49.0, 23.0, 50.6]},
+        "10": {"name": "Podlaskie", "bbox": [22.1, 52.3, 24.4, 54.3]},
+        "11": {"name": "Pomorskie", "bbox": [16.8, 53.6, 19.0, 55.1]},
+        "12": {"name": "Śląskie", "bbox": [17.9, 49.6, 20.0, 51.0]},
+        "13": {"name": "Świętokrzyskie", "bbox": [20.0, 50.2, 21.6, 51.4]},
+        "14": {"name": "Warmińsko-mazurskie", "bbox": [19.3, 53.0, 23.0, 54.6]},
+        "15": {"name": "Wielkopolskie", "bbox": [15.8, 51.3, 18.1, 53.5]},
+        "16": {"name": "Zachodniopomorskie", "bbox": [14.1, 52.6, 16.9, 54.3]}
+    }
+}

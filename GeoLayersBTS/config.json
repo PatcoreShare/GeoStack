@@ -1,0 +1,21 @@
+{
+  "bts_settings": {
+    "export_url": "https://beta.btsearch.pl/bts/export",
+    "output_format": "3.0d",
+    "timeout": 600,
+    "max_retries": 2,
+    "sleep_between": 2,
+    "directories": {
+      "kmz": "./KMZ",
+      "cache": "./cache",
+      "logs": "./logs"
+    },
+    "major_operators": ["Plus", "T-Mobile", "Orange", "Play"],
+    "operator_colors": {
+      "Orange": "ff0080ff",
+      "T-Mobile": "ffff00ff",
+      "Plus": "ff00ff00",
+      "Play": "ffff00aa"
+    }
+  }
+}

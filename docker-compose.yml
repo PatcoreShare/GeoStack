@@ -1,0 +1,24 @@
+services:
+  geosatellite:
+    build: ./GeoSatellite
+    env_file:
+      - ./GeoSatellite/.env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  geotiles:
+    build: ./GeoTiles
+    env_file:
+      - ./GeoTiles/.env
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  bts-downloader:
+    build: ./GeoLayersBTS
+    env_file:
+      - ./GeoLayersBTS/.env
+    volumes:
+      - ./KMZ:/app/KMZ
+    restart: unless-stopped

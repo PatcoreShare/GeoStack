@@ -1,0 +1,46 @@
+{
+  "tiles_settings": {
+    "zoom_levels": {
+      "min": 10,
+      "max": 11
+    },
+    "tile_servers": [
+      "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "https://b.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "https://c.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+    ],
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+    },
+    "workers": 4,
+    "timeout": 15,
+    "download_settings": {
+      "max_workers": 4,
+      "timeout": 15
+    },
+    "mbtiles_settings": {
+      "name": "osm_polska",
+      "format": "png",
+      "attribution": "© OpenStreetMap contributors"
+    },
+    "regions": {
+      "1": {"name": "Dolnośląskie", "bbox": {"west": 15.5, "south": 50.1, "east": 17.7, "north": 51.4}},
+      "2": {"name": "Kujawsko-pomorskie", "bbox": {"west": 17.0, "south": 52.6, "east": 19.6, "north": 53.7}},
+      "3": {"name": "Lubelskie", "bbox": {"west": 21.7, "south": 50.6, "east": 24.2, "north": 52.0}},
+      "4": {"name": "Lubuskie", "bbox": {"west": 14.7, "south": 51.3, "east": 16.4, "north": 53.0}},
+      "5": {"name": "Łódzkie", "bbox": {"west": 18.5, "south": 50.9, "east": 20.2, "north": 52.5}},
+      "6": {"name": "Małopolskie", "bbox": {"west": 19.5, "south": 49.2, "east": 21.5, "north": 50.5}},
+      "7": {"name": "Mazowieckie", "bbox": {"west": 19.7, "south": 51.4, "east": 23.0, "north": 53.5}},
+      "8": {"name": "Opolskie", "bbox": {"west": 16.9, "south": 50.0, "east": 18.6, "north": 51.0}},
+      "9": {"name": "Podkarpackie", "bbox": {"west": 21.1, "south": 49.0, "east": 23.0, "north": 50.6}},
+      "10": {"name": "Podlaskie", "bbox": {"west": 22.1, "south": 52.3, "east": 24.4, "north": 54.3}},
+      "11": {"name": "Pomorskie", "bbox": {"west": 16.8, "south": 53.6, "east": 19.0, "north": 55.1}},
+      "12": {"name": "Śląskie", "bbox": {"west": 17.9, "south": 49.6, "east": 20.0, "north": 51.0}},
+      "13": {"name": "Świętokrzyskie", "bbox": {"west": 20.0, "south": 50.2, "east": 21.6, "north": 51.4}},
+      "14": {"name": "Warmińsko-mazurskie", "bbox": {"west": 19.3, "south": 53.0, "east": 23.0, "north": 54.6}},
+      "15": {"name": "Wielkopolskie", "bbox": {"west": 15.8, "south": 51.3, "east": 18.1, "north": 53.5}},
+      "16": {"name": "Zachodniopomorskie", "bbox": {"west": 14.1, "south": 52.6, "east": 16.9, "north": 54.3}}
+    }
+  }
+}
