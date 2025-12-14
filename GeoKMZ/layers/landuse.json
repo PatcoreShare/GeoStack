@@ -1,0 +1,40 @@
+{
+  "name": "Roślinność i zalesienie",
+  "description": "Lasy, zadrzewienia, żywopłoty, krzewy",
+  "layers": {
+    "forest_all": {
+      "description": "Wszystkie lasy razem (forest + wood)",
+      "tags": {
+        "landuse": ["forest", "wood"],
+        "natural": ["wood"]
+      },
+      "style": {
+        "color": "ff006400",
+        "fillColor": "33006400",
+        "width": 1
+      }
+    },
+    "landuse_orchard": {
+      "description": "Sad (drzewa owocowe)",
+      "tags": {
+        "landuse": ["orchard"]
+      },
+      "style": {
+        "color": "ff8fbc8f",
+        "fillColor": "338fbc8f",
+        "width": 1
+      }
+    },
+    "landuse_vineyard": {
+      "description": "Winnica",
+      "tags": {
+        "landuse": ["vineyard"]
+      },
+      "style": {
+        "color": "ffab6e84",
+        "fillColor": "33ab6e84",
+        "width": 1
+      }
+    }
+  }
+}

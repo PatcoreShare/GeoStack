@@ -1,0 +1,70 @@
+# =============================================================================
+# BTS & Tiles & OSM Downloader - Complete Requirements
+# =============================================================================
+# Install: pip install -r requirements.txt
+# Python 3.8+ required
+# =============================================================================
+
+
+# =============================================================================
+# BASE - Required for ALL scripts
+# =============================================================================
+requests>=2.31.0
+urllib3>=2.0.0
+certifi>=2023.7.22
+charset-normalizer>=3.2.0
+idna>=3.4
+
+pandas
+# =============================================================================
+# BTS SCRAPER - btsearch_scraper.py
+# =============================================================================
+# Required for KML/KMZ generation
+simplekml>=1.3.6
+
+
+# =============================================================================
+# TILES DOWNLOADER - tiles_dowxnloader.py
+# =============================================================================
+# Uses only BASE packages (no additional dependencies)
+
+
+# =============================================================================
+# OSM DOWNLOADER - osm_downloader.py
+# =============================================================================
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Geospatial libraries
+geopandas>=0.14.0
+shapely>=2.0.0
+pyproj>=3.5.0
+
+# OSM data access
+osmnx>=1.9.0
+
+# Graph analysis (required by OSMnx)
+networkx>=3.0
+
+
+# =============================================================================
+# Installation Instructions
+# =============================================================================
+#
+# Install ALL scripts:
+#   pip install -r requirements.txt
+#
+# Install SPECIFIC scripts only:
+#
+#   BTS Scraper only:
+#     pip install requests urllib3 certifi charset-normalizer idna simplekml
+#
+#   Tiles Downloader only:
+#     pip install requests urllib3 certifi charset-normalizer idna
+#
+#   OSM Downloader only:
+#     pip install requests urllib3 certifi charset-normalizer idna pandas numpy geopandas shapely pyproj osmnx networkx
+#
+# =============================================================================

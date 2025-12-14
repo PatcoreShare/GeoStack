@@ -1,0 +1,26 @@
+{
+  "name": "Infrastruktura energetyczna",
+  "description": "Linie energetyczne i obiekty",
+  "layers": {
+    "power_line": {
+      "description": "Linia energetyczna",
+      "tags": {"power": ["line"]},
+      "style": {"color": "ff808080", "width": 2}
+    },
+    "power_tower": {
+      "description": "Słup",
+      "tags": {"power": ["tower"]},
+      "style": {"color": "ff808080", "width": 1}
+    },
+    "power_plant": {
+      "description": "Elektrownia",
+      "tags": {"power": ["plant"]},
+      "style": {"color": "ffff0000", "width": 2}
+    },
+    "power_station": {
+      "description": "Stacja trafo",
+      "tags": {"power": ["station", "substation"]},
+      "style": {"color": "ffff8000", "width": 1}
+    }
+  }
+}

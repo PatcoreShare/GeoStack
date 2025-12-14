@@ -20,5 +20,15 @@ services:
     env_file:
       - ./GeoLayersBTS/.env
     volumes:
+      - ./data:/app/KMZ
+    restart: unless-stopped
+
+  osm-downloader:
+    platform: linux/amd64
+    build: ./GeoKMZ
+    volumes:
       - ./KMZ:/app/KMZ
+      - ./OSM_Data:/app/OSM_Data
+    environment:
+      - PYTHONUNBUFFERED=1
     restart: unless-stopped

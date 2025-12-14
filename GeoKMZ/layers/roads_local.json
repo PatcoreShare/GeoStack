@@ -1,0 +1,46 @@
+{
+  "name": "Drogi lokalne",
+  "description": "Drogi powiatowe, gminne, osiedlowe, serwisowe",
+  "layers": {
+    "highway_tertiary": {
+      "description": "Drogi powiatowe",
+      "tags": {
+        "highway": ["tertiary", "tertiary_link"]
+      },
+      "style": {
+        "color": "ff8B4513",
+        "width": 2
+      }
+    },
+    "highway_unclassified": {
+      "description": "Drogi gminne (niesklasyfikowane)",
+      "tags": {
+        "highway": ["unclassified"]
+      },
+      "style": {
+        "color": "ff8B4513",
+        "width": 2
+      }
+    },
+    "highway_living_street": {
+      "description": "Strefa zamieszkania (woonerf)",
+      "tags": {
+        "highway": ["living_street"]
+      },
+      "style": {
+        "color": "ff8B4513",
+        "width": 1
+      }
+    },
+    "highway_track": {
+      "description": "Drogi polne, leśne",
+      "tags": {
+        "highway": ["track"]
+      },
+      "style": {
+        "color": "ff663919",
+        "width": 2
+      }
+    }
+  }
+}

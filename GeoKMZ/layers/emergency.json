@@ -1,0 +1,36 @@
+{
+  "name": "Obiekty ratunkowe",
+  "description": "Defibrylatory, hydranty, telefony alarmowe, stacje ratunkowe",
+  "layers": {
+    "emergency_defibrillator": {
+      "description": "Defibrylator AED",
+      "tags": {
+        "emergency": ["defibrillator"]
+      },
+      "style": {
+        "color": "ff00ff00",
+        "width": 2
+      }
+    },
+    "emergency_fire_hydrant": {
+      "description": "Hydrant przeciwpożarowy",
+      "tags": {
+        "emergency": ["fire_hydrant"]
+      },
+      "style": {
+        "color": "ffff0000",
+        "width": 2
+      }
+    },
+    "emergency_phone": {
+      "description": "Telefon alarmowy SOS",
+      "tags": {
+        "emergency": ["phone"]
+      },
+      "style": {
+        "color": "ff0000ff",
+        "width": 2
+      }
+    }
+  }
+}

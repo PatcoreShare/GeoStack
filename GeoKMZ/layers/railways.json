@@ -1,0 +1,26 @@
+{
+  "name": "Kolej",
+  "description": "Linie kolejowe wszystkich typów",
+  "layers": {
+    "railways_main": {
+      "description": "Linie kolejowe główne",
+      "tags": {
+        "railway": ["rail"]
+      },
+      "style": {
+        "color": "ff000000",
+        "width": 3
+      }
+    },
+    "railways_all": {
+      "description": "WSZYSTKIE linie kolejowe",
+      "tags": {
+        "railway": ["rail", "light_rail", "narrow_gauge"]
+      },
+      "style": {
+        "color": "ff000000",
+        "width": 3
+      }
+    }
+  }
+}

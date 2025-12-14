@@ -1,0 +1,26 @@
+{
+  "name": "Obiekty sztuczne",
+  "description": "Wieże, maszty, kominy, mosty",
+  "layers": {
+    "man_made_tower": {
+      "description": "Wieża",
+      "tags": {"man_made": ["tower"]},
+      "style": {"color": "ff0000ff", "width": 2}
+    },
+    "man_made_mast": {
+      "description": "Maszt",
+      "tags": {"man_made": ["mast"]},
+      "style": {"color": "ff0000ff", "width": 1}
+    },
+    "man_made_chimney": {
+      "description": "Komin",
+      "tags": {"man_made": ["chimney"]},
+      "style": {"color": "ff808080", "width": 2}
+    },
+    "man_made_bridge": {
+      "description": "Most",
+      "tags": {"man_made": ["bridge"]},
+      "style": {"color": "ff8b4513", "fillColor": "ff8b4513","width": 3}
+    }
+  }
+}

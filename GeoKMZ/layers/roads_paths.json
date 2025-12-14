@@ -1,0 +1,16 @@
+{
+  "name": "Ścieżki i drogi polne",
+  "description": "Ścieżki piesze, rowerowe, drogi polne, leśne",
+  "layers": {
+    "highway_path": {
+      "description": "Ścieżki (ogólne)",
+      "tags": {
+        "highway": ["path"]
+      },
+      "style": {
+        "color": "ff74baec",
+        "width": 1
+      }
+    }
+  }
+}

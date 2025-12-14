@@ -1,0 +1,72 @@
+{
+  "name": "Służby ratunkowe",
+  "description": "Policja, straż pożarna, szpitale, pogotowie",
+  "layers": {
+    "services_all": {
+      "description": "Wszystkie służby ratunkowe razem",
+      "tags": {
+        "amenity": ["fire_station", "police", "hospital", "clinic", "doctors"]
+      },
+      "style": {
+        "color": "ffff0000",
+        "fillColor": "33ff0000",
+        "width": 2
+      }
+    },
+    "amenity_fire_station": {
+      "description": "Straż pożarna (PSP, OSP)",
+      "tags": {
+        "amenity": ["fire_station"]
+      },
+      "style": {
+        "color": "ffdc143c",
+        "fillColor": "33dc143c",
+        "width": 2
+      }
+    },
+    "amenity_police": {
+      "description": "Posterunek policji",
+      "tags": {
+        "amenity": ["police"]
+      },
+      "style": {
+        "color": "ff00008b",
+        "fillColor": "3300008b",
+        "width": 2
+      }
+    },
+    "amenity_hospital": {
+      "description": "Szpital",
+      "tags": {
+        "amenity": ["hospital"]
+      },
+      "style": {
+        "color": "ffff0000",
+        "fillColor": "33ff0000",
+        "width": 2
+      }
+    },
+    "amenity_clinic": {
+      "description": "Przychodnia, ośrodek zdrowia",
+      "tags": {
+        "amenity": ["clinic", "doctors"]
+      },
+      "style": {
+        "color": "ffff6347",
+        "fillColor": "33ff6347",
+        "width": 1
+      }
+    },
+    "emergency_ambulance_station": {
+      "description": "Stacja pogotowia ratunkowego",
+      "tags": {
+        "emergency": ["ambulance_station"]
+      },
+      "style": {
+        "color": "ffff1493",
+        "fillColor": "33ff1493",
+        "width": 2
+      }
+    }
+  }
+}

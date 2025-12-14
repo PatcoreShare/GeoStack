@@ -1,0 +1,28 @@
+{
+  "name": "Granice",
+  "description": "Granice administracyjne i państwowe Polski",
+  "layers": {
+    "boundary_national": {
+      "description": "Granica państwa Polski",
+      "tags": {
+        "boundary": ["administrative"],
+        "admin_level": ["2"]
+      },
+      "style": {
+        "color": "ffff0000",
+        "width": 4
+      }
+    },
+    "boundary_voivodeship": {
+      "description": "Granice województw (16 województw)",
+      "tags": {
+        "boundary": ["administrative"],
+        "admin_level": ["4"]
+      },
+      "style": {
+        "color": "ff0000ff",
+        "width": 3
+      }
+    }
+  }
+}

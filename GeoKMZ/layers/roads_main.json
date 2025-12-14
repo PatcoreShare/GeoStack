@@ -1,0 +1,46 @@
+{
+  "name": "Drogi główne",
+  "description": "Autostrady, ekspresowe, krajowe, wojewódzkie",
+  "layers": {
+    "highway_motorway": {
+      "description": "Autostrady (A1, A2, A4...)",
+      "tags": {
+        "highway": ["motorway", "motorway_link"]
+      },
+      "style": {
+        "color": "ff8B4513",
+        "width": 4
+      }
+    },
+    "highway_trunk": {
+      "description": "Drogi ekspresowe (S1, S2, S3...)",
+      "tags": {
+        "highway": ["trunk", "trunk_link"]
+      },
+      "style": {
+        "color": "ff8B4513",
+        "width": 3
+      }
+    },
+    "highway_primary": {
+      "description": "Drogi krajowe (DK1, DK2...)",
+      "tags": {
+        "highway": ["primary", "primary_link"]
+      },
+      "style": {
+        "color": "ff8B4513",
+        "width": 3
+      }
+    },
+    "highway_secondary": {
+      "description": "Drogi wojewódzkie (DW...)",
+      "tags": {
+        "highway": ["secondary", "secondary_link"]
+      },
+      "style": {
+        "color": "#ff8B4513",
+        "width": 2
+      }
+    }
+  }
+}

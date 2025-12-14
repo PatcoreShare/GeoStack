@@ -1,0 +1,28 @@
+{
+  "name": "Cieki wodne",
+  "description": "Rzeki, strumienie, kanały, rowy",
+  "layers": {
+    "water_all": {
+      "description": "Wszystkie cieki wodne razem (rzeki + strumienie + jeziora)",
+      "tags": {
+        "natural": ["water"],
+        "waterway": ["river", "stream", "canal"]
+      },
+      "style": {
+        "color": "ffff0000",
+        "fillColor": "ffff0000",
+        "width": 2
+      }
+    },
+    "waterway_drain": {
+      "description": "Rowy melioracyjne",
+      "tags": {
+        "waterway": ["drain"]
+      },
+      "style": {
+        "color": "ffebce87",
+        "width": 1
+      }
+    }
+  }
+}
